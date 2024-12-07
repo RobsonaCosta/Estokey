@@ -1,0 +1,153 @@
+body {
+    background: #fafafa;
+    color: #333333;
+}
+h1, h2, h3 {
+    padding-left: 20px;    
+    color: #444444;
+}
+form {
+    padding-left: 20px;
+}
+a {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+p {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* button{ 
+    border-style: none;
+} */
+header {
+    background-color: #280251;
+    color: white;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.Main {
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.container-content {
+margin-top: 15%;
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 25%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 40px;
+text-align: justify;
+background: #ffffff;
+border: 1px solid #dddddd;
+border-radius: 3px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    font-size: large;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+td {
+    align-items: center;
+    text-align: center;
+}
+tr:hover {
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+.resultado-consulta{
+    /* padding: 10px 20px; */
+    /* max-height: 50px; */
+    justify-content: center;
+    align-items: center;
+}
+.voltar{
+    padding-right: 15px;
+    text-decoration: none;
+
+}
+.div-scroll{
+    display: block;
+    max-height: 20px;
+    overflow: scroll;
+    overflow-y:scroll;
+    width: 5px;
+    height: 5px;
+    
+}
+tbody{
+    width: 5px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+ .btn{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+.btn-edit {
+    text-decoration: none;
+    position: relative;
+    padding: 2px 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom:5px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 14px;
+    border-style:none;
+    border-radius: 3px;
+   }
+.btn-delete {
+    position: relative;
+    /* display: inline-block; */
+    padding: 2px 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom:5px;
+    background-color: #d9534f;
+    color: white;
+    font-size: 14px;
+    border-style:none;
+    border-radius: 3px;
+    margin-left: 5px;
+    }
+.btn-add  {
+    position: relative;
+    display:inline-flex;
+    /* padding: 2px 8px; */
+    /* margin-bottom: 5px; */
+    background-color: #337ab7;
+    color: white;
+    font-size: 16px;
+    text-align: center;    
+    border-style:none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.editar-produto{
+    display: flex;
+    margin: 2px;
+}
+.flash-msg{
+    color: #333333;
+    line-height: 2;
+}
